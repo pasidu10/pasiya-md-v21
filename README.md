@@ -34,16 +34,7 @@
 
 ## 🟣 Heroku
 ---
-[![Deploy on Heroku](https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/nexustech1911/NEXUS-XMD)
+[![Deploy on Heroku](https://img.shields.io/badge/-DEPLOY-purple?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new?template=https://github.com/nexustech1911/pasiya-XMD)
 
 
 
-
-
-
----
-## 𝑺𝑼𝑷𝑷𝑶𝑹𝑻 𝑩𝒀 𝑭𝑶𝑳𝑳𝑶𝑾𝑰𝑵𝑮 𝐎𝐔𝐑 𝑾𝑯𝑨𝑻𝑺𝑨𝑷𝑷 𝑪𝑯𝑨𝑵𝑵𝑬𝑳
-
-
- <ahref="https://whatsapp.com/channel/0029VbBfcs789iniJkpPNR1t"><img title="OUR-WHATSAPP CHANNEL" src="https://img.shields.io/badge/OUR-WHATSAPP CHANNEL-h?color=green&style=for-the-badge&logo=whatsapp" width="280" height="38.45"/></a></p>
- 
