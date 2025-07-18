@@ -6,7 +6,7 @@
   <a href="https://github.com/nexustech1911/PASIYA-MD"><img title="Developer" src="https://img.shields.io/badge/Author-pasiya%20MD-FF00FF.svg?style=big-square&logo=github" /></a>
 </p>
 
-<div align="center">
+<div align="centerhttps://github.com/pasidu10/pasiya-md-v21">
   
 [![WhatsApp Channel](https://img.shields.io/badge/Join-WhatsApp%20Channel-9ACD32?style=big-square&logo=whatsapp)](https://whatsapp.com/channel/0029VbBfcs789iniJkpPNR1t)
 </div>
