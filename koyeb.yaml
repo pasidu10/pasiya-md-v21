@@ -1,6 +1,6 @@
-name: nexus-xmd
+name: PASIYA-MD
 services:
-  - name: nexus-xmd-service
+  - name: PASIYA-Md-service
     type: web
     ports:
       - 5000
