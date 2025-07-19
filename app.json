@@ -1,8 +1,8 @@
 {
-  "name": "NEXUS-XMD",
-  "description": "Javascript WhatsApp bot made by Pkdriller",
+  "name": "PASIYA-MD",
+  "description": "Javascript WhatsApp bot made by pasiya",
   "logo": "https://files.catbox.moe/jlovlp.jpg",
-  "keywords": ["NEXUS-XMD"],
+  "keywords": ["PASIYA-MD"],
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -14,7 +14,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "NEXUS-XMD"
+      "value": "PASIYA-MD"
     },
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
@@ -69,17 +69,17 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "Pkdriller"
+      "value": "pasidu sampath "
     },
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "254794146821"
+      "value": "+94784548818"
     },
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "NEXUS-XMD"
+      "value": "PASIYA-MD"
     },
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -109,7 +109,7 @@
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ pasiya*"
     },
     "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
