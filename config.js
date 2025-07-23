@@ -24,7 +24,7 @@ module.exports = {
   CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
   DELETE_LINKS: process.env.DELETE_LINKS || "true",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "+94784548818",
-  OWNER_NAME: process.env.OWNER_NAME || "Pkdriller",
+  OWNER_NAME: process.env.OWNER_NAME || "pasidu sampath",
   DESCRIPTION: process.env.DESCRIPTION || "*© pasiya*",
   ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/z62ts0.jpg",
   LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *PASIYA-MD*⚡",
