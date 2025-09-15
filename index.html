@@ -44,4 +44,17 @@
 
   <script src="script.js"></script>
 </body>
-</html>
+</html>  
+<section class="apply-box" id="applyForm">
+  <h3>Apply Here</h3>
+  <form id="applyFormElement">
+    <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+    <input type="number" id="age" name="age" placeholder="Age" required>
+    <input type="text" id="city" name="city" placeholder="Nearest City" required>
+    <input type="file" id="photo" name="photo" accept="image/*">
+    <small>Please attach your photo manually after WhatsApp opens.</small>
+    <textarea id="skills" name="skills" placeholder="Your Skills / Short Message" required></textarea>
+    <button type="submit" class="btn primary">Apply</button>
+    <div id="status" class="muted"></div>
+  </form>
+</section>
