@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PASIYA-MEAN | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h1>PASIYA-MEAN</h1>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to PASIYA-MEAN Website 🚀</h2>
+    <p>Explore our bots, projects, and connect directly.</p>
+    <a href="#applyForm" class="btn">Apply Now</a>
+  </section>
+
+  <section class="apply-box" id="applyForm">
+    <h3>Apply Here</h3>
+    <form id="applyFormElement">
+      <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <input type="number" id="age" name="age" placeholder="Age" required>
+      <input type="text" id="city" name="city" placeholder="Nearest City" required>
+      <input type="file" id="photo" name="photo" accept="image/*">
+      <small>Please attach your photo manually in the Gmail client after it opens.</small>
+      <textarea id="skills" name="skills" placeholder="Your Skills / Short Message" required></textarea>
+      <button type="submit" class="btn primary">Submit Application</button>
+      <div id="status" class="muted"></div>
+    </form>
+  </section>
+
+  <footer>
+    <p>POWERED_BY PASIYA-MD · SRI LANKA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
