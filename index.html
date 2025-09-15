@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PASIYA - MEAN | PASIYA-MD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <div class="brand">PASIYA - MEAN</div>
+        <div class="sub">Personal hub · Bot base · Projects · Contact</div>
+      </div>
+      <nav>
+        <a class="navbtn" href="#projects">Projects</a>
+        <a class="navbtn" href="#apply">Apply</a>
+        <a class="navbtn" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="grid">
+      <section class="card hero" id="apply">
+        <h1>Apply to PASIYA - MEAN</h1>
+        <p>Fill your details and they will be sent to <b>pasidusampath730@gmail.com</b> + WhatsApp numbers.</p>
+
+        <form id="applyForm" class="apply-form">
+          <div class="row">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" required placeholder="John Doe" />
+            </div>
+            <div class="field">
+              <label for="age">Age</label>
+              <input id="age" name="age" type="number" required min="10" max="120" placeholder="Age" />
+            </div>
+          </div>
+
+          <label for="skills">Skills / Abilities</label>
+          <input id="skills" name="skills" required placeholder="e.g. Node.js, Bots, Automation" />
+
+          <label for="message">Short message</label>
+          <textarea id="message" name="message" placeholder="Why apply?" required></textarea>
+
+          <div class="actions">
+            <button type="submit" class="primary">Send Application</button>
+            <button type="button" id="clearBtn" class="ghost">Clear</button>
+          </div>
+        </form>
+
+        <div id="status" class="status"></div>
+
+        <section style="margin-top:14px">
+          <h3 id="projects">Projects</h3>
+          <div class="projects" id="projectsList"></div>
+        </section>
+      </section>
+
+      <aside class="card right" id="contact">
+        <h3>Direct Contact</h3>
+        <div class="contact-list">
+          <div class="contact-item">
+            <div>
+              <div class="num">+94 76 636 59869</div>
+              <div class="sub">Pasidu Sampath</div>
+            </div>
+            <a class="navbtn" href="#" id="wa1">Message</a>
+          </div>
+
+          <div class="contact-item">
+            <div>
+              <div class="num">+94 78 454 8818</div>
+              <div class="sub">PASIYA-MD Admin</div>
+            </div>
+            <a class="navbtn" href="#" id="wa2">Message</a>
+          </div>
+
+          <div style="margin-top:12px">
+            <h4>Quick connect</h4>
+            <div class="quick-links">
+              <a class="navbtn" id="waBot" href="#">WhatsApp Bot / Group</a>
+              <a class="navbtn" id="mailtoBtn" href="mailto:pasidusampath730@gmail.com">Email</a>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="card">
+      POWERED_BY <b>PASIYA-MD</b> · SRI LANKA
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
