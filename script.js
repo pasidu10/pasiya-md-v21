@@ -1,5 +1,5 @@
 const CONFIG = {
-  emailTo: "pasidusampath730@gmail.com",
+  emailTo: "pasidusampath590@gmail.com",
   contactNumbers: ["94766359869","94784548818"],
   whatsappBotUrl: "https://chat.whatsapp.com/D6dngoGTfPUAQDKTreVnyp?mode=ac_t",
   projects: [
