@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PASIYA-MEAN | Bot Deploy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <h1>PASIYA-MEAN</h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="bot-deploy.html" class="active">Bot Deploy</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <h2>WhatsApp Bot Deployment 🚀</h2>
+  <p>Generate your session_id & deploy your PASIYA-MD WhatsApp Bot easily.</p>
+  <button class="btn" id="generateSession">Open Session ID Generator</button>
+  <p id="status" class="muted"></p>
+</section>
+
+<footer>
+  <p>POWERED_BY PASIYA-MD · SRI LANKA</p>
+</footer>
+
+<script>
+document.getElementById("generateSession").addEventListener("click", function() {
+  const generatorURL = "https://young-reef-14544-b40927d61cee.herokuapp.com/";
+  window.open(generatorURL, "_blank");
+  document.getElementById("status").innerText = "Session ID generator opened! Follow instructions to deploy your bot.";
+});
+</script>
+</body>
+</html>
