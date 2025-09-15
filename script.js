@@ -35,3 +35,34 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const applyForm = document.getElementById("applyFormElement");
+
+  applyForm.addEventListener("submit", function(e){
+    e.preventDefault();
+
+    const fullName = document.getElementById("fullName").value;
+    const age = document.getElementById("age").value;
+    const city = document.getElementById("city").value;
+    const skills = document.getElementById("skills").value;
+    const photo = document.getElementById("photo").value ? "✅ Photo selected" : "❌ No photo selected";
+
+    const message = encodeURIComponent(
+      `📌 New Application from PASIYA-MEAN Website\n\n` +
+      `Name: ${fullName}\n` +
+      `Age: ${age}\n` +
+      `City: ${city}\n` +
+      `Skills/Message: ${skills}\n` +
+      `Photo: ${photo}\n\n⚠ Please attach your photo manually before sending.`
+    );
+
+    // WhatsApp Owner numbers
+    const waNumbers = ["94766359869", "94784548818"];
+    waNumbers.forEach(number => {
+      window.open(`https://wa.me/${number}?text=${message}`, "_blank");
+    });
+
+    document.getElementById("status").innerText = "WhatsApp opened! Please attach your photo and send.";
+    applyForm.reset();
+  });
+});
