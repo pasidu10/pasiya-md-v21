@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PASIYA - MEAN | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">PASIYA - MEAN</div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card hero">
+      <h1>Welcome to PASIYA - MEAN</h1>
+      <p class="muted">Personal hub for Bot base, projects and contact — POWERED_BY <strong>PASIYA-MD</strong> · SRI LANKA</p>
+
+      <div class="quick-actions">
+        <a class="btn primary" href="projects.html">View Projects</a>
+        <a class="btn" href="contact.html">Contact</a>
+        <a class="btn ghost" href="about.html">About</a>
+      </div>
+
+      <div class="apply-box">
+        <h3>Apply / Join</h3>
+        <p class="muted">Visitors can submit Name, Age and Skills — application opens in your email app and WhatsApp for confirmation.</p>
+
+        <form id="applyForm" class="apply-form">
+          <div class="row">
+            <input id="name" name="name" placeholder="Full name" required />
+            <input id="age" name="age" type="number" placeholder="Age" min="10" max="120" required />
+          </div>
+          <input id="skills" name="skills" placeholder="Skills (comma separated)" required />
+          <textarea id="message" name="message" placeholder="Short message — why apply?" required></textarea>
+
+          <div class="row actions">
+            <button type="submit" class="btn primary">Send Application</button>
+            <button type="button" id="clearBtn" class="btn ghost">Clear</button>
+          </div>
+
+          <div id="status" class="status muted"></div>
+        </form>
+      </div>
+    </section>
+
+    <aside class="card side">
+      <h4>Quick Links</h4>
+      <ul class="quick-list">
+        <li><a href="https://heroku.com/deploy?template=https://github.com/PASIYAv12/Pasiya.git" target="_blank">Deploy PASIYA-MD (Heroku)</a></li>
+        <li><a href="https://github.com/PASIYAv12/Pasiya.git" target="_blank">PASIYA GitHub Repo</a></li>
+        <li><a href="https://pasiyav12.github.io/DEMONS.VIP/" target="_blank">DEMONS.VIP (Crypto site)</a></li>
+      </ul>
+
+      <div style="margin-top:14px">
+        <h5>Contact quick</h5>
+        <a class="btn" id="waBtn1" href="#">WhatsApp 1</a>
+        <a class="btn" id="waBtn2" href="#">WhatsApp 2</a>
+        <a class="btn" id="mailBtn" href="#">Email</a>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    POWERED_BY <strong>PASIYA-MD</strong> · SRI LANKA
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
