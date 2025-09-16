@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
       window.open(`mailto:pasidusampath590@gmail.com?subject=${subject}&body=${body}`, "_blank");
 
       // Open WhatsApp (Owner numbers)
-      const wa1 = "94766359869";
+      const wa1 = "94784548818";
       const wa2 = "94784548818";
       window.open(`https://wa.me/${wa1}?text=${body}`, "_blank");
       window.open(`https://wa.me/${wa2}?text=${body}`, "_blank");
